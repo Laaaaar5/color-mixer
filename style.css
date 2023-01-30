@@ -20,7 +20,7 @@ body {
 }
 
 form {
-  display: inline;
+  display: flex;
 }
 
 form + form {
@@ -37,4 +37,15 @@ form + form {
 
 #blue {
   accent-color: blue;
+}
+
+#randomClr {
+  height: 2rem;
+  margin-left: 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#rightSide {
+  display: flex;
 }
